@@ -1,6 +1,7 @@
 const {Builder, By, Key, until} = require('selenium-webdriver');
+require('chromedriver')
 
-const name = 'Daniel Weinman';  // YOUR NAME HERE
+const name = '';  // YOUR NAME HERE
 
 (async function example() {
   let driver = new Builder().forBrowser('chrome').build();
